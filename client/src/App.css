@@ -1,0 +1,55 @@
+* {
+  color: green;
+}
+
+body {
+  background-color: black;
+}
+
+.App {
+  border: 1px solid white;
+  display: flex;
+  flex-direction: row;
+  margin: 2em;
+}
+
+.side-info {
+  min-height: 720px;
+  display: flex;
+  flex-direction: column;
+  flex: 0.1 1 25%;
+  border: 1px solid white;
+}
+
+.user-info {
+  margin: 5px;
+  border: 1px solid white;
+}
+
+.server-info {
+  cursor: pointer;
+  background-color: aliceblue;
+}
+
+.chatroom {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.server-block {
+  margin: 5px;
+  padding: 5px;
+}
+
+.chat-log {
+  overflow: auto;
+  max-height: 670px;
+}
+
+.actual-server {
+  margin: 5px;
+  padding: 5px;
+  background-color: white;
+}
+
