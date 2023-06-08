@@ -7,7 +7,7 @@ const io = require('socket.io')(http, {
         methods: ["GET", "POST"]
     }
 });
-const PORT = 4242;
+const PORT = 3000;
 
 const users = [];
 const servers = [];

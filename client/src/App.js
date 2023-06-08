@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useRef } from "react";
 import "./App.css";
 import io from "socket.io-client";
-const socket = io("localhost:4242");
+const socket = io("localhost:3000");
 
 function App() {
   //declaration de variable avec setteur
